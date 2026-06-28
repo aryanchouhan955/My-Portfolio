@@ -542,7 +542,11 @@ main {
 
 .service-icon-box { margin-bottom: 10px; }
 
-.service-icon-box img { margin: auto; }
+.service-icon-box img,
+.service-icon-box svg {
+  margin: auto;
+  display: block;
+}
 
 .service-content-box { text-align: center; }
 
