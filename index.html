@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan Chouhan - Software Engineer</title>
+  <meta name="description" content="Aryan Chouhan - Software Engineer passionate about building real-time collaborative solutions. Skilled in ReactJS, TypeScript, Node.js, and more.">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Aryan Chouhan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aryan Chouhan">Aryan Chouhan</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:aryanchouhan955@gmail.com" class="contact-link">aryanchouhan955@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917024324843" class="contact-link">+91 7024324843</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bhopal, Madhya Pradesh, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/aryanchouhan955" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/aryan955" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Coursework</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Software Engineer and Computer Science undergraduate at IIIT Bhopal, passionate about finding solutions
+            that make people's lives better through technology. I enjoy building real-time, collaborative, and scalable
+            web applications.
+          </p>
+
+          <p>
+            With strong foundations in Data Structures, Algorithms, and Object-Oriented Programming, I write modular,
+            extensible, and performant code. From full-stack web development to AI integrations and data science,
+            I love exploring diverse problem domains and turning ideas into impactful products.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Web Development</h4>
+                <p class="service-item-text">
+                  Building scalable, real-time web applications using ReactJS, Node.js, Express, and modern databases like PostgreSQL and MongoDB.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <!-- AI brain icon (inline SVG, golden-yellow) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#e8a500" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9.5 2a2.5 2.5 0 0 1 5 0"/>
+                  <path d="M14.5 2A2.5 2.5 0 0 1 17 4.5v.5"/>
+                  <path d="M9.5 2A2.5 2.5 0 0 0 7 4.5v.5"/>
+                  <path d="M4 8a3 3 0 0 0-1 5.83V15a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-1.17A3 3 0 0 0 20 8"/>
+                  <path d="M7 8h10"/>
+                  <circle cx="9" cy="13" r="1"/>
+                  <circle cx="15" cy="13" r="1"/>
+                  <path d="M9 17v2"/>
+                  <path d="M15 17v2"/>
+                  <path d="M11 19h2"/>
+                </svg>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI &amp; Data Science</h4>
+                <p class="service-item-text">
+                  Leveraging Python libraries — NumPy, Pandas, Matplotlib, and OpenCV — alongside generative AI APIs to build intelligent applications.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Real-time systems icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Real-Time Systems</h4>
+                <p class="service-item-text">
+                  Designing low-latency collaboration features with WebSocket, WebRTC, and Supabase Broadcast Channels for live synchronization.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="DSA icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Algorithms &amp; Problem Solving</h4>
+                <p class="service-item-text">
+                  Strong foundations in Data Structures and Algorithms, consistently solving competitive programming challenges in C++ and Java.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - tech stack highlights
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Tech Highlights</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="languages icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Languages</h4>
+                <p class="service-item-text">C++, Java, Python, JavaScript, TypeScript</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="web tech icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Technologies</h4>
+                <p class="service-item-text">ReactJS, Node.js, Express, MongoDB, Supabase, REST API, WebSocket</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="database icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Databases</h4>
+                <p class="service-item-text">MySQL, PostgreSQL, MongoDB</p>
+              </div>
+            </li>
+
+            <!-- Tools card (split 1) -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <!-- Wrench/tools icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#e8a500" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Tools</h4>
+                <p class="service-item-text">Git, GitHub, VS Code, MS Excel</p>
+              </div>
+            </li>
+
+            <!-- ML Libraries card (split 2) -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <!-- Chart/analytics icon for ML -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#e8a500" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"/>
+                  <line x1="12" y1="20" x2="12" y2="4"/>
+                  <line x1="6"  y1="20" x2="6"  y2="14"/>
+                  <line x1="2"  y1="20" x2="22" y2="20"/>
+                </svg>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML Libraries</h4>
+                <p class="service-item-text">NumPy, Pandas, Matplotlib, OpenCV</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:20px;">
+          <a href="https://github.com/aryanchouhan955" target="_blank"
+            style="display:inline-flex; align-items:center; gap:8px; padding:10px 20px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:8px; color:var(--white-2,#e0e0e0); text-decoration:none; font-size:14px; transition:0.2s;">
+            <ion-icon name="logo-github" style="font-size:18px;"></ion-icon> GitHub Profile
+          </a>
+          <a href="https://www.linkedin.com/in/aryan955" target="_blank"
+            style="display:inline-flex; align-items:center; gap:8px; padding:10px 20px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:8px; color:var(--white-2,#e0e0e0); text-decoration:none; font-size:14px; transition:0.2s;">
+            <ion-icon name="logo-linkedin" style="font-size:18px;"></ion-icon> LinkedIn
+          </a>
+        </div>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Institute of Information Technology, Bhopal</h4>
+
+              <span>Nov 2023 — Jun 2027</span>
+
+              <p class="timeline-text">
+                B.Tech. in Information Technology | Current CGPA: 8.1<br>
+                Relevant Coursework: Data Structures and Algorithms, Operating Systems, Database Management
+                Systems (RDBMS), Computer Networks, Object-Oriented Programming.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">LUVIS — Live User Virtual Interaction System</h4>
+
+              <span>ReactJS, TypeScript, Supabase, PostgreSQL, WebRTC, Monaco Editor</span>
+
+              <p class="timeline-text">
+                Engineered a scalable real-time collaboration platform supporting synchronized whiteboard,
+                collaborative code editor, and peer-to-peer video/audio via WebRTC. Designed low-latency
+                synchronization using Supabase Broadcast Channels. Built analytics dashboard with Recharts
+                for study activity, streak visualization, and real-time leaderboards.
+              </p>
+
+              <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap;">
+                <a href="https://luvis-application1.netlify.app" target="_blank"
+                  style="display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:var(--orange-yellow-crayola,#e8a500); border-radius:6px; color:#111; font-size:13px; font-weight:600; text-decoration:none;">
+                  <ion-icon name="open-outline"></ion-icon> Live Demo
+                </a>
+                <a href="https://github.com/aryanchouhan955/LUVIS-app" target="_blank"
+                  style="display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:6px; color:var(--white-2,#e0e0e0); font-size:13px; text-decoration:none;">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Chatbot using Google Gemini API</h4>
+
+              <span>ReactJS, Google Gemini API</span>
+
+              <p class="timeline-text">
+                Developed an AI-powered chatbot using Google Gemini API for dynamic conversational responses.
+                Built a responsive React frontend with error handling, input validation, and loading states.
+                Designed modular components for improved maintainability and scalability.
+              </p>
+
+              <div style="margin-top:10px;">
+                <a href="https://github.com/aryanchouhan955" target="_blank"
+                  style="display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:6px; color:var(--white-2,#e0e0e0); font-size:13px; text-decoration:none;">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures & Algorithms</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Full-Stack Web Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ReactJS & TypeScript</h5>
+                <data value="82">82%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 82%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python & Data Science</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases (SQL & NoSQL)</h5>
+                <data value="78">78%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 78%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Real-Time Systems & APIs</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Application</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI / ML</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Application</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI / ML</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <!-- clicking opens detail panel, not live link directly -->
+              <button class="project-card-btn" data-project="luvis" style="all:unset; cursor:pointer; width:100%; display:block; text-align:left;">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-luvis.png" alt="LUVIS" loading="lazy" onerror="this.src='https://placehold.co/600x400/1e2040/e8a500?text=LUVIS'">
+                </figure>
+
+                <h3 class="project-title">LUVIS</h3>
+                <p class="project-category">Web Application</p>
+
+              </button>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai / ml">
+              <button class="project-card-btn" data-project="chatbot" style="all:unset; cursor:pointer; width:100%; display:block; text-align:left;">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-chatbot.png" alt="AI Chatbot" loading="lazy" onerror="this.src='https://placehold.co/600x400/1e2040/e8a500?text=AI+Chatbot'">
+                </figure>
+
+                <h3 class="project-title">AI Chatbot</h3>
+                <p class="project-category">AI / ML</p>
+
+              </button>
+            </li>
+
+          </ul>
+
+          <!-- ─── Project Detail Panel ─── -->
+          <div id="project-detail" style="display:none; margin-top:28px; padding:24px; background:var(--border-gradient-onyx, #2a2a2a); border:1px solid var(--jet,#333); border-radius:16px; animation:fadeIn .25s ease;">
+            <button id="project-detail-close" style="float:right; background:none; border:none; color:var(--light-gray,#aaa); font-size:22px; cursor:pointer; line-height:1;" title="Close">&times;</button>
+            <h3 id="pd-title" style="color:var(--orange-yellow-crayola,#e8a500); font-size:1.2rem; margin-bottom:6px;"></h3>
+            <p id="pd-stack" style="color:var(--light-gray,#aaa); font-size:0.82rem; margin-bottom:14px;"></p>
+            <p id="pd-desc" style="color:var(--white-2,#e0e0e0); font-size:0.9rem; line-height:1.7; margin-bottom:16px;"></p>
+            <div id="pd-links" style="display:flex; gap:10px; flex-wrap:wrap;"></div>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG (repurposed as Coursework/Notes section)
+      -->
+
+      <article class="blog" data-page="coursework">
+
+        <header>
+          <h2 class="h2 article-title">Coursework</h2>
+        </header>
+
+        <!-- Compact coursework grid -->
+        <section style="padding-top:8px;">
+          <ul style="display:grid; grid-template-columns:1fr 1fr; gap:14px; list-style:none; padding:0; margin:0;">
+
+            <li style="background:var(--border-gradient-onyx,#2a2a2a); border:1px solid var(--jet,#2e2e2e); border-radius:12px; padding:16px 18px; display:flex; flex-direction:column; gap:6px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <ion-icon name="git-branch-outline" style="color:#e8a500; font-size:18px; flex-shrink:0;"></ion-icon>
+                <h4 style="color:var(--white-2,#e0e0e0); font-size:0.88rem; font-weight:600; margin:0;">Data Structures &amp; Algorithms</h4>
+              </div>
+              <p style="color:var(--light-gray,#aaa); font-size:0.76rem; line-height:1.5; margin:0;">Arrays, trees, graphs, DP, greedy — C++ &amp; Java</p>
+              <span style="font-size:0.7rem; color:#e8a500; font-weight:500;">Core CS &bull; IIIT Bhopal</span>
+            </li>
+
+            <li style="background:var(--border-gradient-onyx,#2a2a2a); border:1px solid var(--jet,#2e2e2e); border-radius:12px; padding:16px 18px; display:flex; flex-direction:column; gap:6px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <ion-icon name="hardware-chip-outline" style="color:#e8a500; font-size:18px; flex-shrink:0;"></ion-icon>
+                <h4 style="color:var(--white-2,#e0e0e0); font-size:0.88rem; font-weight:600; margin:0;">Operating Systems</h4>
+              </div>
+              <p style="color:var(--light-gray,#aaa); font-size:0.76rem; line-height:1.5; margin:0;">Scheduling, memory management, concurrency &amp; deadlock</p>
+              <span style="font-size:0.7rem; color:#e8a500; font-weight:500;">Core CS &bull; IIIT Bhopal</span>
+            </li>
+
+            <li style="background:var(--border-gradient-onyx,#2a2a2a); border:1px solid var(--jet,#2e2e2e); border-radius:12px; padding:16px 18px; display:flex; flex-direction:column; gap:6px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <ion-icon name="server-outline" style="color:#e8a500; font-size:18px; flex-shrink:0;"></ion-icon>
+                <h4 style="color:var(--white-2,#e0e0e0); font-size:0.88rem; font-weight:600; margin:0;">Database Management (RDBMS)</h4>
+              </div>
+              <p style="color:var(--light-gray,#aaa); font-size:0.76rem; line-height:1.5; margin:0;">SQL, normalization, indexing, ACID, schema design</p>
+              <span style="font-size:0.7rem; color:#e8a500; font-weight:500;">Core CS &bull; IIIT Bhopal</span>
+            </li>
+
+            <li style="background:var(--border-gradient-onyx,#2a2a2a); border:1px solid var(--jet,#2e2e2e); border-radius:12px; padding:16px 18px; display:flex; flex-direction:column; gap:6px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <ion-icon name="wifi-outline" style="color:#e8a500; font-size:18px; flex-shrink:0;"></ion-icon>
+                <h4 style="color:var(--white-2,#e0e0e0); font-size:0.88rem; font-weight:600; margin:0;">Computer Networks</h4>
+              </div>
+              <p style="color:var(--light-gray,#aaa); font-size:0.76rem; line-height:1.5; margin:0;">OSI/TCP-IP, HTTP, DNS, routing, socket programming</p>
+              <span style="font-size:0.7rem; color:#e8a500; font-weight:500;">Core CS &bull; IIIT Bhopal</span>
+            </li>
+
+            <li style="background:var(--border-gradient-onyx,#2a2a2a); border:1px solid var(--jet,#2e2e2e); border-radius:12px; padding:16px 18px; display:flex; flex-direction:column; gap:6px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <ion-icon name="code-slash-outline" style="color:#e8a500; font-size:18px; flex-shrink:0;"></ion-icon>
+                <h4 style="color:var(--white-2,#e0e0e0); font-size:0.88rem; font-weight:600; margin:0;">Object-Oriented Programming</h4>
+              </div>
+              <p style="color:var(--light-gray,#aaa); font-size:0.76rem; line-height:1.5; margin:0;">Encapsulation, inheritance, polymorphism, SOLID</p>
+              <span style="font-size:0.7rem; color:#e8a500; font-weight:500;">Core CS &bull; IIIT Bhopal</span>
+            </li>
+
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- Real OpenStreetMap embed for Bhopal city -->
+        <section class="mapbox" data-mapbox>
+          <figure style="border-radius:16px; overflow:hidden; margin:0;">
+            <iframe
+              title="Bhopal location map"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=77.27%2C23.19%2C77.52%2C23.33&amp;layer=mapnik&amp;marker=23.2599%2C77.4126"
+              width="100%" height="280"
+              style="border:0; display:block;"
+              loading="lazy"
+              referrerpolicy="no-referrer">
+            </iframe>
+          </figure>
+          <div style="text-align:center; margin-top:10px;">
+            <a href="https://www.openstreetmap.org/?mlat=23.2599&amp;mlon=77.4126#map=12/23.2599/77.4126" target="_blank"
+              style="display:inline-flex; align-items:center; gap:6px; padding:7px 16px; background:var(--orange-yellow-crayola,#e8a500); border-radius:8px; color:#111; font-size:13px; font-weight:600; text-decoration:none;">
+              <ion-icon name="open-outline"></ion-icon> Open Larger Map
+            </a>
+          </div>
+        </section>
+
+        <!-- Contact links only — no form -->
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Get In Touch</h3>
+
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <a href="mailto:aryanchouhan955@gmail.com"
+              style="display:inline-flex; align-items:center; gap:10px; padding:12px 16px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:8px; color:var(--white-2,#e0e0e0); text-decoration:none; font-size:14px;">
+              <ion-icon name="mail-outline" style="font-size:20px; color:#e8a500;"></ion-icon>
+              aryanchouhan955@gmail.com
+            </a>
+            <a href="tel:+917024324843"
+              style="display:inline-flex; align-items:center; gap:10px; padding:12px 16px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:8px; color:var(--white-2,#e0e0e0); text-decoration:none; font-size:14px;">
+              <ion-icon name="call-outline" style="font-size:20px; color:#e8a500;"></ion-icon>
+              +91 7024324843
+            </a>
+            <a href="https://www.linkedin.com/in/aryan955" target="_blank"
+              style="display:inline-flex; align-items:center; gap:10px; padding:12px 16px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:8px; color:var(--white-2,#e0e0e0); text-decoration:none; font-size:14px;">
+              <ion-icon name="logo-linkedin" style="font-size:20px; color:#0077b5;"></ion-icon>
+              linkedin.com/in/aryan955
+            </a>
+            <a href="https://github.com/aryanchouhan955" target="_blank"
+              style="display:inline-flex; align-items:center; gap:10px; padding:12px 16px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:8px; color:var(--white-2,#e0e0e0); text-decoration:none; font-size:14px;">
+              <ion-icon name="logo-github" style="font-size:20px;"></ion-icon>
+              github.com/aryanchouhan955
+            </a>
+          </div>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!--
+    - inline portfolio script (avoids caching issues with external file)
+  -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+      // ── Sidebar toggle ──────────────────────────────────────────────────────
+      var sidebar    = document.querySelector('[data-sidebar]');
+      var sidebarBtn = document.querySelector('[data-sidebar-btn]');
+      if (sidebar && sidebarBtn) {
+        sidebarBtn.addEventListener('click', function () {
+          sidebar.classList.toggle('active');
+        });
+      }
+
+      // ── Portfolio filter (select dropdown) ──────────────────────────────────
+      var selectBox    = document.querySelector('[data-select]');
+      var selectItems  = document.querySelectorAll('[data-select-item]');
+      var selectValue  = document.querySelector('[data-selecct-value]');
+      var filterItems  = document.querySelectorAll('[data-filter-item]');
+      var filterBtns   = document.querySelectorAll('[data-filter-btn]');
+
+      function filterFunc(selected) {
+        filterItems.forEach(function (item) {
+          if (selected === 'all' || item.dataset.category === selected) {
+            item.classList.add('active');
+          } else {
+            item.classList.remove('active');
+          }
+        });
+      }
+
+      if (selectBox) {
+        selectBox.addEventListener('click', function () {
+          selectBox.classList.toggle('active');
+        });
+      }
+
+      selectItems.forEach(function (item) {
+        item.addEventListener('click', function () {
+          var val = this.innerText.toLowerCase();
+          if (selectValue) selectValue.innerText = this.innerText;
+          if (selectBox)   selectBox.classList.remove('active');
+          filterFunc(val);
+        });
+      });
+
+      var lastActive = filterBtns[0] || null;
+      filterBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var val = this.innerText.toLowerCase();
+          if (selectValue) selectValue.innerText = this.innerText;
+          filterFunc(val);
+          if (lastActive) lastActive.classList.remove('active');
+          this.classList.add('active');
+          lastActive = this;
+        });
+      });
+
+      // ── Contact form validation ──────────────────────────────────────────────
+      var form       = document.querySelector('[data-form]');
+      var formInputs = document.querySelectorAll('[data-form-input]');
+      var formBtn    = document.querySelector('[data-form-btn]');
+
+      formInputs.forEach(function (input) {
+        input.addEventListener('input', function () {
+          if (form && formBtn) {
+            if (form.checkValidity()) {
+              formBtn.removeAttribute('disabled');
+            } else {
+              formBtn.setAttribute('disabled', '');
+            }
+          }
+        });
+      });
+
+      // ── Navbar page navigation ───────────────────────────────────────────────
+      var navLinks = document.querySelectorAll('[data-nav-link]');
+      var pages    = document.querySelectorAll('[data-page]');
+
+      navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+          var target = this.innerText.toLowerCase().trim();
+
+          pages.forEach(function (page) {
+            if (page.dataset.page === target) {
+              page.classList.add('active');
+            } else {
+              page.classList.remove('active');
+            }
+          });
+
+    
+      navLinks.forEach(function (l) { l.classList.remove('active'); });
+          this.classList.add('active');
+
+          window.scrollTo(0, 0);
+        });
+      });
+
+      // ── Project detail panel ─────────────────────────────────────────────────
+      var projects = {
+        luvis: {
+          title: 'LUVIS — Live User Virtual Interaction System',
+          stack: 'ReactJS · TypeScript · Supabase · PostgreSQL · WebRTC · Monaco Editor · Tailwind CSS',
+          desc:  'A collaborative learning platform where users can learn and work together in real time. ' +
+                 'It features live audio, video, and chat via WebRTC, along with a synchronized code editor ' +
+                 '(Monaco) and whiteboard (HTML5 Canvas). The platform includes a Challenge Room where users ' +
+                 'compete with each other, and a dashboard that tracks study hours, current streak, longest ' +
+                 'streak, and average challenge accuracy — displaying a live rank among active users.',
+          links: [
+            { label: 'Live Demo', icon: 'open-outline', href: 'https://luvis-application1.netlify.app', style: 'background:#e8a500;color:#111;font-weight:600;' },
+            { label: 'GitHub',    icon: 'logo-github',  href: 'https://github.com/aryanchouhan955/LUVIS-app', style: 'border:1px solid #444;color:#e0e0e0;' }
+          ]
+        },
+        chatbot: {
+          title: 'AI Chatbot using Google Gemini API',
+          stack: 'ReactJS · Google Gemini API · JavaScript',
+          desc:  'An AI-powered chatbot application built with Google Gemini API for dynamic conversational ' +
+                 'responses. Features a responsive React frontend with seamless real-time user interaction. ' +
+                 'Includes proper error handling, input validation, and loading states for a smooth UX. ' +
+                 'Modular component architecture for improved maintainability and scalability.',
+          links: [
+            { label: 'GitHub', icon: 'logo-github', href: 'https://github.com/aryanchouhan955', style: 'border:1px solid #444;color:#e0e0e0;' }
+          ]
+        }
+      };
+
+      var detailPanel = document.getElementById('project-detail');
+      var pdTitle     = document.getElementById('pd-title');
+      var pdStack     = document.getElementById('pd-stack');
+      var pdDesc      = document.getElementById('pd-desc');
+      var pdLinks     = document.getElementById('pd-links');
+      var closeBtn    = document.getElementById('project-detail-close');
+
+      document.querySelectorAll('.project-card-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var key  = this.dataset.project;
+          var data = projects[key];
+          if (!data || !detailPanel) return;
+
+          pdTitle.textContent   = data.title;
+          pdStack.textContent   = data.stack;
+          pdDesc.textContent    = data.desc;
+          pdLinks.innerHTML     = '';
+
+          data.links.forEach(function (l) {
+            var a = document.createElement('a');
+            a.href   = l.href;
+            a.target = '_blank';
+            a.rel    = 'noopener';
+            a.innerHTML = '<ion-icon name="' + l.icon + '" style="margin-right:5px;"></ion-icon>' + l.label;
+            a.style.cssText = 'display:inline-flex;align-items:center;padding:8px 18px;border-radius:8px;text-decoration:none;font-size:13px;' + l.style;
+            pdLinks.appendChild(a);
+          });
+
+          detailPanel.style.display = 'block';
+          detailPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+      });
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function () {
+          if (detailPanel) detailPanel.style.display = 'none';
+        });
+      }
+
+    }); // end DOMContentLoaded
+  </script>
+
+  <style>
+    @keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+  </style>
+
+</body>
+
+</html>
