@@ -451,6 +451,34 @@
 
             <li class="timeline-item">
 
+              <h4 class="h4 timeline-item-title">Imaginify – AI-Powered Image Processing SaaS Platform</h4>
+
+              <span>Next.js 14, React, TypeScript, Tailwind CSS, MongoDB, Stripe, Clerk, Cloudinary API</span>
+
+              <p class="timeline-text">
+                Architected and developed a full-stack SaaS application utilizing Next.js 14 App Router and TypeScript,
+                offering advanced AI image manipulation tools including generative fill, object removal, and image
+                restoration. Engineered a secure authentication flow and user management system using Clerk, seamlessly
+                integrated with a MongoDB database via Mongoose. Implemented a scalable credit-based usage system with
+                Stripe webhooks for tiered subscriptions, and leveraged Cloudinary's AI APIs to execute complex image
+                transformations.
+              </p>
+
+              <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap;">
+                <a href="https://imaginify-application1.vercel.app" target="_blank"
+                  style="display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:var(--orange-yellow-crayola,#e8a500); border-radius:6px; color:#111; font-size:13px; font-weight:600; text-decoration:none;">
+                  <ion-icon name="open-outline"></ion-icon> Live Demo
+                </a>
+                <a href="https://github.com/aryanchouhan955/Imaginify.git" target="_blank"
+                  style="display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:var(--bg-gradient-jet,#1e1e1e); border:1px solid var(--jet,#333); border-radius:6px; color:var(--white-2,#e0e0e0); font-size:13px; text-decoration:none;">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
               <h4 class="h4 timeline-item-title">LUVIS — Live User Virtual Interaction System</h4>
 
               <span>ReactJS, TypeScript, Supabase, PostgreSQL, WebRTC, Monaco Editor</span>
@@ -657,6 +685,25 @@
           </div>
 
           <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <!-- clicking opens detail panel, not live link directly -->
+              <button class="project-card-btn" data-project="imaginify"
+                style="all:unset; cursor:pointer; width:100%; display:block; text-align:left;">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-imaginify.png" alt="Imaginify" loading="lazy"
+                    onerror="this.src='https://placehold.co/600x400/1e2040/e8a500?text=Imaginify'">
+                </figure>
+
+                <h3 class="project-title">Imaginify</h3>
+                <p class="project-category">Web Application</p>
+
+              </button>
+            </li>
 
             <li class="project-item  active" data-filter-item data-category="web application">
               <!-- clicking opens detail panel, not live link directly -->
@@ -978,6 +1025,15 @@
 
       // ── Project detail panel ─────────────────────────────────────────────────
       var projects = {
+        imaginify: {
+          title: 'Imaginify – AI-Powered Image Processing SaaS Platform',
+          stack: 'Next.js 14 · React · TypeScript · Tailwind CSS · MongoDB · Stripe · Clerk · Cloudinary API',
+          desc: 'Imaginify is a modern Software-as-a-Service (SaaS) platform that makes professional-grade AI image editing accessible to everyone. Built with Next.js and powered by Cloudinary\'s AI, the application allows users to magically restore old photos, remove unwanted backgrounds, recolor specific items, and even use \'generative fill\' to expand images beyond their original borders. It operates on a scalable credit system, seamlessly handling user authentication and tiered subscription payments via Stripe, all wrapped in a sleek, highly responsive user interface.',
+          links: [
+            { label: 'Live Demo', icon: 'open-outline', href: 'https://imaginify-application1.vercel.app', style: 'background:#FFDB6E;color:#111;font-weight:600;' },
+            { label: 'GitHub', icon: 'logo-github', href: 'https://github.com/aryanchouhan955/Imaginify.git', style: 'border:1px solid #444;color:#e0e0e0;' }
+          ]
+        },
         luvis: {
           title: 'LUVIS — Live User Virtual Interaction System',
           stack: 'ReactJS · TypeScript · Supabase · PostgreSQL · WebRTC · Monaco Editor · Tailwind CSS',
